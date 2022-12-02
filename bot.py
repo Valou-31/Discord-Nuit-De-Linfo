@@ -2,7 +2,8 @@ import interactions
 
 from bd import BD
 
-bot = interactions.Client(token="MTA0NzkzODMwNzM2NTAxNTU1Mg.GCN4RL.JUlZxKvy9PS8fytPM1g900pdK4iHzObZpdDi6c")
+# Insérez dans les guillement votre token du bot discord
+bot = interactions.Client(token="")
 
 laBD = BD('databases/bd.sqlite')
 
